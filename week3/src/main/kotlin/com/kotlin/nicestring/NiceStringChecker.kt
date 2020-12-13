@@ -1,12 +1,12 @@
 package com.kotlin.nicestring
 
 fun String.isNice(): Boolean {
-    val result = listOf(isBuBaBe(), hasThreeVowels(), hasDoubleLetters())
+    val result = listOf(!isBuBaBe(), hasThreeVowels(), hasDoubleLetters())
     return result.count { it } >= 2
 }
 
 fun String.isBuBaBe(): Boolean{
-    return "(ba)|(bu)|(be)" in this
+    return Regex("(ba)|(bu)|(be)") in this
 }
 
 fun String.hasThreeVowels(): Boolean{

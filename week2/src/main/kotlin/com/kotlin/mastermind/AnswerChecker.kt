@@ -4,7 +4,7 @@ object AnswerChecker {
     fun checkAnswer(answer : String, code : String) : Pair<Int, Int>{
         var correctPositions = code.zip(answer).count{it.first == it.second}
         var correctLetters = MastermindGame.ALPHABET.sumBy { char -> Math.min(code.count { it == char }, answer.count { it == char }) }
-        return Pair(correctPositions, correctLetters)
+        return Pair(correctPositions, correctLetters - correctPositions)
     }
 
     fun isInputValid(answer: String) : Boolean{

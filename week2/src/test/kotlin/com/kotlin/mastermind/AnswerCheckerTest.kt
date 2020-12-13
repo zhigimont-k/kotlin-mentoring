@@ -28,14 +28,13 @@ class AnswerCheckerTest {
 
     @Test
     fun checkAnswerTest(){
-        var code = "ABCD"
-        assertEquals(Pair(4,4), AnswerChecker.checkAnswer(legalInput, code))
-        code = "ABCE"
-        assertEquals(Pair(3,3), AnswerChecker.checkAnswer(legalInput, code))
-        code = "ABDC"
-        assertEquals(Pair(2,4), AnswerChecker.checkAnswer(legalInput, code))
-        code = "EEEE"
-        assertEquals(Pair(0,0), AnswerChecker.checkAnswer(legalInput, code))
+        assertEquals(Pair(4,0), AnswerChecker.checkAnswer("ABCD", "ABCD"))
+        assertEquals(Pair(0,4), AnswerChecker.checkAnswer("CDBA", "ABCD"))
+        assertEquals(Pair(2,2), AnswerChecker.checkAnswer("ABDC", "ABCD"))
+        assertEquals(Pair(1,0), AnswerChecker.checkAnswer("ADFE", "AABC"))
+        assertEquals(Pair(1,1), AnswerChecker.checkAnswer("ADFA", "AABC"))
+        assertEquals(Pair(0,2), AnswerChecker.checkAnswer("DFAA", "AABC"))
+        assertEquals(Pair(0,1), AnswerChecker.checkAnswer("DEFA", "AABC"))
     }
 
 }
