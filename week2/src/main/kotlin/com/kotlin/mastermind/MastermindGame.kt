@@ -8,20 +8,20 @@ object MastermindGame {
     fun run(){
         code = CodeGenerator(CODE_LENGTH, ALPHABET).generate()
         //println("Code is: $code")
-        println("Code length is ${code.length}, symbols are ${ALPHABET.toList()}\nPlease enter your guess:")
+        println("Code length is ${CODE_LENGTH}, symbols are ${ALPHABET.toList()}\nPlease enter your guess:")
         do {
             var input = readLine()!!
             while(!AnswerChecker.isInputValid(input)){
                 println("Please try again:")
                 input = readLine()!!
             }
-            var result = AnswerChecker.checkAnswer(input);
-            if (result.first == code.length){
+            var result = AnswerChecker.checkAnswer(input, code);
+            if (result.first == CODE_LENGTH){
                 break
             }
             println("You got ${result.second} letters right and were correct about ${result.first} positions of them! Please try again:")
-            result = AnswerChecker.checkAnswer(input);
-        } while(result.first != code.length)
+            result = AnswerChecker.checkAnswer(input, code);
+        } while(result.first != CODE_LENGTH)
         println("Congratulations, you won!")
     }
 }
