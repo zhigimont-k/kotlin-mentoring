@@ -1,4 +1,4 @@
 /.idea/
-/week2/target/
-/week2/week2.iml
+/*/target/
+/*/*.iml
 /kotlin-mentoring.iml
