@@ -19,10 +19,6 @@ Number of pins that are both the right colour and position
 Number of pins that are correct in colour but in the wrong position
 Note that the rest pins in the code will pins that are neither correct in colour or position.
 
-Your task is to evaluate a guess made by player two of the code set by player one. For the sake of simplicity, we use uppercase letters from A to F instead of colours.
-
-You can test your solution and play as a second player using playMastermind.
-
 Different Letters
 Example 1
 Secret ABCD and guess ABCD must be evaluated to: rightPosition = 4, wrongPosition = 0. All letters are guessed correctly in respect to their positions.
@@ -48,4 +44,3 @@ Secret AABC and guess DFAA must be evaluated to: rightPosition = 0, wrongPositio
 Example 7
 Secret AABC and guess DEFA must be evaluated to: rightPosition = 0, wrongPosition = 1. The letter A occurs only once in the second string, that's why it counted only once as staying at the wrong position.
 
-After implementing the task for repeated letters, run MastermindTestDifferentLetters to make sure it works correctly.
