@@ -39,6 +39,6 @@ fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
  */
 fun TaxiPark.checkParetoPrinciple(): Boolean {
     return if (trips.isEmpty()) false else trips.groupBy { it.driver }.map { (_, tripsByDriver) -> tripsByDriver.sumByDouble { it.cost } }
-        .sortedDescending().take((allDrivers.size * 0.2).toInt()).sum() >
+        .sortedDescending().take((allDrivers.size * 0.2).toInt()).sum() >=
             0.8 * trips.sumByDouble { it.cost }
 }
