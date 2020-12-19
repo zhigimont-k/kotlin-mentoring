@@ -30,7 +30,7 @@ fun TaxiPark.findSmartPassengers(): Set<Passenger> =
  * Return any period if many are the most frequent, return `null` if there're no trips.
  */
 fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
-    return trips.groupBy { (it.duration / 100)..(it.duration / 100 + 9) }.maxByOrNull { (_, durationsInRange) -> durationsInRange.size }?.key
+    return trips.groupBy { (it.duration / 10 * 10)..(it.duration / 10 * 10 + 9) }.maxByOrNull { (_, durationsInRange) -> durationsInRange.size }?.key
 }
 
 /*
@@ -38,7 +38,7 @@ fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
  * Check whether 20% of the drivers contribute 80% of the income.
  */
 fun TaxiPark.checkParetoPrinciple(): Boolean {
-    return trips.groupBy { it.driver }.map { (_, tripsByDriver) -> tripsByDriver.sumByDouble { it.cost } }
+    return if (trips.isEmpty()) false else trips.groupBy { it.driver }.map { (_, tripsByDriver) -> tripsByDriver.sumByDouble { it.cost } }
         .sortedDescending().take((allDrivers.size * 0.2).toInt()).sum() >
             0.8 * trips.sumByDouble { it.cost }
 }
