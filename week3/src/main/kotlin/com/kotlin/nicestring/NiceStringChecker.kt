@@ -8,8 +8,8 @@ fun String.countVowels() = "aeiou".sumBy { char -> count { it == char } }
 
 fun String.hasDoubleLetters() = (1 until length).any { this[it] == this[it-1] }
 
-class NiceStringChecker {
-    fun run(){
+fun main(){
+    while(true){
         println("Please enter a string to check:")
         var input = readLine()!!
         println("This string is ${if (input.isNice()) "" else "not "}nice")
