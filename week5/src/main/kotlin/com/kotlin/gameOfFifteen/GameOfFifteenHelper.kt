@@ -11,5 +11,15 @@ package com.kotlin.gameOfFifteen
  * Thus the initial permutation should be correct.
  */
 fun isEven(permutation: List<Int>): Boolean {
-    TODO()
+    var inversionNumber = 0
+    with(permutation){
+        for (i in 0 until size){
+            for (j in (i+1) until size){
+                if (this[i] > this[j]){
+                    inversionNumber++
+                }
+            }
+        }
+    }
+    return inversionNumber % 2 == 0
 }

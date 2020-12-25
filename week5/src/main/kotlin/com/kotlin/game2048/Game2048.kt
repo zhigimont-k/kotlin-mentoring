@@ -5,7 +5,6 @@ import com.kotlin.board.Direction
 import com.kotlin.board.GameBoard
 import com.kotlin.board.createGameBoard
 import com.kotlin.game.Game
-import kotlin.math.absoluteValue
 
 /*
  * Your task is to implement the game 2048 https://en.wikipedia.org/wiki/2048_(video_game).
