@@ -18,9 +18,6 @@ class GameOfFifteen(private val initializer: GameOfFifteenInitializer) : Game {
     private val board = createGameBoard<Int?>(4)
     override fun initialize() {
         var permutation = initializer.initialPermutation
-        while(!isEven(permutation)){
-            permutation = permutation.shuffled()
-        }
         board.getAllCells().forEachIndexed { index, cell -> board[cell] = if (index < board.width * board.width - 1) permutation[index] else null }
     }
 

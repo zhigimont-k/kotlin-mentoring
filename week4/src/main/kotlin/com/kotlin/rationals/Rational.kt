@@ -1,7 +1,6 @@
 package com.kotlin.rationals
 
 import java.lang.IllegalArgumentException
-import java.math.BigDecimal
 import java.math.BigInteger
 
 fun main() {
@@ -38,7 +37,7 @@ fun main() {
             "1824032980372593840238402384283940832058".toBigInteger() == 1 divBy 2)
 }
 
-class Rational(var numenator : BigInteger, var denominator : BigInteger) {
+data class Rational(val numenator : BigInteger, val denominator : BigInteger) {
     init {
         if (denominator == BigInteger.ZERO) throw IllegalArgumentException()
     }
@@ -80,9 +79,10 @@ infix fun Number.divBy(i: Number): Rational = Rational(BigInteger.valueOf(this.t
 
 infix fun BigInteger.divBy(i: BigInteger): Rational = Rational(this, i).normalize()
 
-fun String.toRational() : Rational = if (contains("/"))
-    Rational(substring(0, indexOf("/")).toBigInteger(),
-        substring(indexOf("/")+1).toBigInteger()).normalize()
-    else Rational(this.toBigInteger(), BigInteger.ONE).normalize()
+fun String.toRational() : Rational {
+    val split = split("/")
+    val denominator = if (split.size > 1) split[1].toBigInteger() else BigInteger.ONE
+    return Rational(split[0].toBigInteger(), denominator).normalize()
+}
 
 operator fun Pair<Rational, Rational>.contains(rational: Rational): Boolean = rational >= this.first && rational <= this.second

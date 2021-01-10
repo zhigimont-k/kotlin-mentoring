@@ -12,6 +12,7 @@ fun main(){
     while(true){
         println("Please enter a string to check:")
         var input = readLine()!!
-        println("This string is ${if (input.isNice()) "" else "not "}nice")
+        val result = if (input.isNice()) "" else "not"
+        println("This string is $result nice")
     }
 }

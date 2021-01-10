@@ -1,13 +1,16 @@
 package com.kotlin.board
 
+import java.util.*
+import kotlin.collections.ArrayList
+
+
 fun createSquareBoard(width: Int): SquareBoard = SquareBoardImpl(width).create()
 fun <T> createGameBoard(width: Int): GameBoard<T> = GameBoardImpl<T>(width).create()
 
 open class SquareBoardImpl(override val width: Int) : SquareBoard {
-    lateinit var cells: ArrayList<Cell>
+    private var cells = ArrayList<Cell>()
 
     open fun create(): SquareBoard {
-        cells = ArrayList()
         (1..width).forEach { i -> (1..width).forEach { j -> cells.add(Cell(i, j)) } }
         return this
     }
@@ -17,7 +20,7 @@ open class SquareBoardImpl(override val width: Int) : SquareBoard {
 
     override fun getCell(i: Int, j: Int): Cell = cells.first { it.i == i && it.j == j }
 
-    override fun getAllCells(): Collection<Cell> = cells
+    override fun getAllCells(): Collection<Cell> = Collections.unmodifiableList(cells)
 
     override fun getRow(i: Int, jRange: IntProgression): List<Cell> = if(jRange.first < jRange.last)
         cells.filter { it.i == i && it.j in jRange } else cells.filter { it.i == i && it.j in jRange }.reversed()
@@ -34,12 +37,12 @@ open class SquareBoardImpl(override val width: Int) : SquareBoard {
 }
 
 class GameBoardImpl<T>(override val width: Int) : GameBoard<T>, SquareBoardImpl(width) {
-    var cellValues = mutableMapOf<Cell, T?>()
+    private var cellValues = mutableMapOf<Cell, T?>()
 
-    override fun get(cell: Cell): T? = cellValues.get(cell)
+    override fun get(cell: Cell): T? = cellValues[cell]
 
     override fun set(cell: Cell, value: T?) {
-        cellValues.put(cell, value)
+        cellValues[cell] = value
     }
 
     override fun filter(predicate: (T?) -> Boolean): Collection<Cell> =
@@ -53,7 +56,7 @@ class GameBoardImpl<T>(override val width: Int) : GameBoard<T>, SquareBoardImpl(
 
     override fun create(): GameBoard<T> {
         super.create()
-        getAllCells().forEach { cellValues.set(it, null) }
+        getAllCells().forEach { cellValues[it] = null }
         return this
     }
 }
