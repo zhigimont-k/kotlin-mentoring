@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestTheFunctionWith" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-01-11T20:19:36" hostname="ADMIN-PC" time="0.011">
-  <properties/>
-  <testcase name="testCreateString" classname="TestTheFunctionWith" time="0.009"/>
-  <testcase name="testCreateMap" classname="TestTheFunctionWith" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

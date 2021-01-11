@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="K_Compound_Tasks" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-01-11T19:36:02" hostname="ADMIN-PC" time="0.053">
-  <properties/>
-  <testcase name="testNumberOfTimesEachProductWasOrdered" classname="K_Compound_Tasks" time="0.052"/>
-  <testcase name="testMostExpensiveDeliveredProduct" classname="K_Compound_Tasks" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

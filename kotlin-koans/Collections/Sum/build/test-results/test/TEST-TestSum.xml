@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSum" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-01-11T18:58:43" hostname="ADMIN-PC" time="0.048">
-  <properties/>
-  <testcase name="testGetTotalOrderPrice" classname="TestSum" time="0.047"/>
-  <testcase name="testGetTotalOrderPrice1" classname="TestSum" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

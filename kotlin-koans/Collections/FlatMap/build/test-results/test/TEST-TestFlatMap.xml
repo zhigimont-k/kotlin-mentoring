@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestFlatMap" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-01-11T19:18:27" hostname="ADMIN-PC" time="0.053">
-  <properties/>
-  <testcase name="testGetOrderedProductsSet" classname="TestFlatMap" time="0.049"/>
-  <testcase name="testGetAllOrderedProducts" classname="TestFlatMap" time="0.004"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

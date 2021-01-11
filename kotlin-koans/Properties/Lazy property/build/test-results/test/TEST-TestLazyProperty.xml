@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestLazyProperty" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-01-11T19:46:34" hostname="ADMIN-PC" time="0.014">
-  <properties/>
-  <testcase name="testLazy" classname="TestLazyProperty" time="0.011"/>
-  <testcase name="initializedOnce" classname="TestLazyProperty" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
