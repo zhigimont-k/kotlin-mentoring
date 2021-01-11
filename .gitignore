@@ -1,4 +1,12 @@
 /.idea/
 /*/target/
 /*/*.iml
+/*/.gradle
+/*/gradle/
+/*/*.gradle
+/*/gradlew
+/*/gradlew.bat
+/*/.idea/
+/*/build/
+/*/util/
 /kotlin-mentoring.iml
