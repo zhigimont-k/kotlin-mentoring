@@ -21,7 +21,7 @@ fun <T : Any> List<T?>.moveAndMergeEqual(merge: (T) -> T): List<T> =
     this.filterNotNull().fold(mutableListOf<T>()) { list, current ->
         list.apply {
             val prev = lastOrNull()
-            list.add(current)
+            add(current)
             if (prev == current) {
                 removeAll(listOf<T>(prev, current))
                 add(merge(current))

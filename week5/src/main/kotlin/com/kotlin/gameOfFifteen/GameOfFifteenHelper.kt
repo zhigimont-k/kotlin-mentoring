@@ -12,12 +12,10 @@ package com.kotlin.gameOfFifteen
  */
 fun isEven(permutation: List<Int>): Boolean {
     var inversionNumber = 0
-    with(permutation){
-        for (i in 0 until size){
-            for (j in (i+1) until size){
-                if (this[i] > this[j]){
-                    inversionNumber++
-                }
+    for (i in permutation.indices){
+        for (j in (i+1) until permutation.size){
+            if (permutation[i] > permutation[j]){
+                inversionNumber++
             }
         }
     }

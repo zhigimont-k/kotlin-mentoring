@@ -31,13 +31,10 @@ class GameOfFifteen(private val initializer: GameOfFifteenInitializer) : Game {
 
     override fun processMove(direction: Direction) {
         val nullCell = board.find { it == null }!!
-        var neighbourCell : Cell?
-
-        board.apply { neighbourCell = nullCell.getNeighbour(direction.reversed()) }
-        if (neighbourCell == null) return
-
-        board[nullCell] = board[neighbourCell!!]
-        board[neighbourCell!!] = null
+        board.run { nullCell.getNeighbour(direction.reversed()) }?.let {
+            board[nullCell] = board[it]
+            board[it] = null
+        }
     }
 
     override fun get(i: Int, j: Int): Int? = board.getCellOrNull(i,j)?.let{ board[it] }
