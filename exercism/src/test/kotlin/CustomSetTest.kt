@@ -1,3 +1,4 @@
+import easy.CustomSet
 import org.junit.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse

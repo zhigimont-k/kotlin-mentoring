@@ -1,5 +1,5 @@
+import easy.SpaceAge
 import org.junit.Test
-import org.junit.Ignore
 import kotlin.test.assertEquals
 
 class SpaceAgeTest {

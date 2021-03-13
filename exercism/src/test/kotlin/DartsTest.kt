@@ -1,3 +1,4 @@
+import easy.Darts
 import org.junit.Test
 import kotlin.test.assertEquals
 

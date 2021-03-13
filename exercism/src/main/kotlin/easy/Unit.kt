@@ -1,0 +1,5 @@
+package easy
+
+enum class Unit {
+    OHMS, KILOOHMS, MEGAOHMS, GIGAOHMS, TERAOHMS, PETAOHMS, EXAOHMS
+}

@@ -1,4 +1,4 @@
-import org.junit.Ignore
+import easy.twofer
 import org.junit.Test
 import kotlin.test.assertEquals
 

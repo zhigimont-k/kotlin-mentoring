@@ -1,5 +1,5 @@
+import easy.transcribeToRna
 import org.junit.Test
-import org.junit.Ignore
 import kotlin.test.assertEquals
 
 class RnaTranscriptionTest {

@@ -1,6 +1,7 @@
 import org.junit.Test
 import kotlin.test.assertEquals
-import Color.*
+import easy.Color.*
+import easy.ResistorColorTrio
 
 class ResistorColorTrioTest {
 

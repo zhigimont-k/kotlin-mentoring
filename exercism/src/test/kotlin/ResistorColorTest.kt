@@ -1,3 +1,4 @@
+import easy.ResistorColor
 import kotlin.test.assertEquals
 import org.junit.Test
 

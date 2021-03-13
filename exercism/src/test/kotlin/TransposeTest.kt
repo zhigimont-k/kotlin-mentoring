@@ -1,5 +1,4 @@
-import org.junit.Rule
-import org.junit.rules.ExpectedException
+import easy.Transpose
 import org.junit.Test
 import kotlin.test.assertEquals
 

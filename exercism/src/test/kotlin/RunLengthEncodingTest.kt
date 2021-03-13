@@ -1,10 +1,8 @@
-import org.junit.Rule
-import org.junit.rules.ExpectedException
 import org.junit.Test
 import kotlin.test.assertEquals
 
-import RunLengthEncoding.encode
-import RunLengthEncoding.decode
+import easy.RunLengthEncoding.encode
+import easy.RunLengthEncoding.decode
 
 class RunLengthEncodingTest {
 
