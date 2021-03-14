@@ -5,46 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="302c2ab7-ebe8-459f-84e3-7868ab56de8d" name="Default Changelist" comment="Add exercism tasks">
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/Acronym.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/Acronym.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/Color.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/CustomSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/CustomSet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/Darts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/Darts.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/DndCharacter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/DndCharacter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/Gigasecond.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/Gigasecond.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/Hamming.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/Hamming.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/HelloWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/HelloWorld.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/Leap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/Leap.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/Pangram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/Pangram.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/ResistorColor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/ResistorColor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/ResistorColorDuo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/ResistorColorDuo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/ResistorColorTrio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/ResistorColorTrio.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/ReverseString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/ReverseString.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/RnaTranscription.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/RnaTranscription.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/RunLengthEncoding.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/RunLengthEncoding.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/ScrabbleScore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/ScrabbleScore.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/SpaceAge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/SpaceAge.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/Transpose.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/Transpose.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/TwoFer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/TwoFer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/main/kotlin/Unit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/main/kotlin/easy/Unit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/AcronymTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/AcronymTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/CustomSetTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/CustomSetTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/DartsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/DartsTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/DndCharacterTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/DndCharacterTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/GigasecondTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/GigasecondTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/HammingTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/HammingTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/HelloWorldTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/HelloWorldTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/LeapTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/LeapTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/PangramTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/PangramTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/ResistorColorDuoTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/ResistorColorDuoTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/ResistorColorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/ResistorColorTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/ResistorColorTrioTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/ResistorColorTrioTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/ReverseStringTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/ReverseStringTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/RnaTranscriptionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/RnaTranscriptionTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/RunLengthEncodingTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/RunLengthEncodingTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/ScrabbleScoreTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/ScrabbleScoreTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/SpaceAgeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/SpaceAgeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/TransposeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/TransposeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercism/src/test/kotlin/TwoferTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercism/src/test/kotlin/TwoferTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,11 +66,20 @@
       <recent name="com.kotlin.nicestring" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LuhnTest">
-    <configuration name="CryptoSquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AtbashTest">
+    <configuration name="AtbashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exercism" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CryptoSquareTest" />
+      <option name="MAIN_CLASS_NAME" value="AtbashTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollatzCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercism" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CollatzCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,19 +104,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfMultiplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exercism" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SumOfMultiplesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exercism" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WordyTest" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AtbashTest" />
+        <item itemvalue="JUnit.CollatzCalculatorTest" />
+        <item itemvalue="JUnit.TriangleTest" />
         <item itemvalue="JUnit.LuhnTest" />
         <item itemvalue="JUnit.LuhnTest.valid | Canadian" />
-        <item itemvalue="JUnit.SumOfMultiplesTest" />
-        <item itemvalue="JUnit.CryptoSquareTest" />
-        <item itemvalue="JUnit.WordyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615146399215</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add exercism tasks">
+      <created>1615658732583</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1615658732584</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
