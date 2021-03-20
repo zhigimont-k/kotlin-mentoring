@@ -9,7 +9,7 @@ object BeerSong {
                 1 -> "1 bottle of beer on the wall, 1 bottle of beer.\n" +
                         "Take it down and pass it around, no more bottles of beer on the wall.\n"
                 else -> "$it bottles of beer on the wall, $it bottles of beer.\n" +
-                        "Take one down and pass it around, ${it - 1} bottle${if (it - 1 == 1) "" else "s"} of beer on the wall.\n"
+                        "Take one down and pass it around, ${it - 1} bottle${if (it - 1 != 1) "s" else ""} of beer on the wall.\n"
             }
         }
     }
